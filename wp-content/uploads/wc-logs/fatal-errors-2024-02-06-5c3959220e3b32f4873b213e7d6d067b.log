@@ -1,0 +1,179 @@
+2024-02-06T03:13:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "cart_popout_hover" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\astra\footer.php(33): wp_footer()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\astra\page.php(44): get_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-06T03:14:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "get_cart_items_html" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\astra\footer.php(33): wp_footer()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\astra\page.php(44): get_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-06T03:14:58+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "get_cart_items_html" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\astra\footer.php(33): wp_footer()
+#4 C:\xampp\htdocs\wordpress\wp-includes\template.php(790): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\template.php(725): load_template('C:\\xampp\\htdocs...', true, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#7 C:\xampp\htdocs\wordpress\wp-content\themes\astra\page.php(44): get_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-06T03:17:38+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 75
+
+2024-02-06T03:18:23+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 75
+
+2024-02-06T03:18:52+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 75
+
+2024-02-06T03:40:58+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_remove_link() in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 76
+
+2024-02-06T03:46:01+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:73
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 73
+
+2024-02-06T03:54:38+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_remove_link() in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 76
+
+2024-02-06T03:54:48+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_remove_link() in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 76
+
+2024-02-06T03:56:12+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_remove_link() in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 76
+
+2024-02-06T05:08:33+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 71
+
+2024-02-06T05:18:06+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_remove_link() in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:77
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 77
+
+2024-02-06T05:21:55+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:74
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 74
+
+2024-02-06T05:23:09+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 67
+
+2024-02-06T05:23:43+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 67
+
+2024-02-06T05:24:26+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 67
+
+2024-02-06T05:24:47+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 67
+
+2024-02-06T05:26:01+00:00 CRITICAL syntax error, unexpected token "<" in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 248
+
+2024-02-06T05:31:00+00:00 CRITICAL Uncaught Error: Call to a member function get_image() on null in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:67
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 67
+
+2024-02-06T07:08:50+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 83
+
+2024-02-06T07:08:52+00:00 CRITICAL syntax error, unexpected token "else" in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 83
+
+2024-02-06T07:10:14+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_remove_link() in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php:76
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): get_cart_items_html_ajax('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(203): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\themes\astra-child\functions.php on line 76
+

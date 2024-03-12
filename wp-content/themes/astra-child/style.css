@@ -1,0 +1,84 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+.product-wrap {
+    display: flex;
+    width: 32%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.product-main-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.cart-menu-hover {
+    /* height: 100vh; */
+    top: 100px;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    background-color: #fff;
+}
+.product-img {
+    display: flex;
+    text-align: center;
+    height: 300px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.cart-number{
+    margin-left: 3px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: -16px;
+    font-size: 12px;
+}
+.product-wrap h2 {
+    height: 80px;
+}
+.product-wrap p {
+    font-size: 20px;
+}
+.product-wrap button.add-to-cart-btn {
+    background-color: #000;
+    border: 2px solid #000;
+}
+.product-wrap button.add-to-cart-btn:hover {
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+@media only screen and (max-width: 767px) {
+    .product-wrap {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .product-wrap {
+        width: 100%;
+    }
+}
